@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <title>Mass Game Simulator</title>   <!--Title of the page-->
+    </head>
+    <body>
+        <div id="container">
+        <!--Menus and buttons-->
+        <ul class="setting">
+            <li class="para">
+                <!--Reference Image menu and button-->
+                Reference Image (jpg and bmp): 
+                <select name="images" id="image_sample">
+                    <option value = "none">---</option>
+                    <option value = "Mandrill">Mandrill</option>
+                    <option value = "Barbara">Barbara</option>
+                    <option value = "Peppers">Peppers</option>
+                    <option value = "Parrots">Parrots</option>
+                </select>
+                &nbsp; or &nbsp;
+                <input id="image" type="file" accept='image/jpeg, image/bmp' onchange="previewImage(this);">     <!--Calling the function previewImage in MGS.js when a reference image is imported-->
+            </li>
+        </ul>
+        <br>
+        <ul class="para">
+            <!--Number of Agents menu-->
+            <li class="para">Number of Agents: 
+                <select name="agents" id="n">
+                    <option value = "1000">1000</option>
+                    <option value = "2000">2000</option>
+                    <option value = "3000">3000</option>
+                </select>      
+            </li>
+            <!--Agent Speed menu-->
+            <li class="para">Agent Speed: 
+                <select name="gain" id="speed">
+                    <option value = "0.8">Medium</option>
+                    <option value = "0.3">Low</option>
+                    <option value = "1.5">High</option>
+                </select>
+            </li>
+            <!--Contrast of Resulting Image menu-->
+            <li class="para">Contrast of Resulting Image: 
+                <select name="cont" id="kappa">
+                    <option value = "15">Medium</option>
+                    <option value = "5">Low</option>
+                    <option value = "30">High</option>
+                </select>   
+            </li>
+        </ul>
+        <br>
+        <ul class="but">
+            <!--Simulation and Animation buttons-->
+            <li class="but">
+                <input style="height:30px; width:110px; font-weight:bold" type="button" id="simulation" value="Simulation">
+            </li>
+            <li class="but">
+                <input style="height:30px; width:110px; font-weight:bold" type="button" id="animation" value="Animation">
+            </li>
+        </ul>
+        <br>
+        <br>
+        <!--Windows, a bar, and a slider-->
+        <table class="cav">
+            <tbody>
+                <!--Reference Image and Formation windows-->
+                <tr>
+                    <td class="cap">Reference Image</td>
+                    <td class="cap">Formation</td>
+                </tr>
+                <tr>
+                    <td class="cav"><canvas id="Ref_win" width="200" height="200" style="border:3px solid"></canvas>
+                    </td>
+                    <td class="cav"><canvas id="For_win" width="200" height="200" style="border:3px solid"></canvas>
+                    </td>
+                </tr>
+                <!--Simulation/Animation Progress bar and Time slider-->
+                <tr>
+                    <td class="cap">Simulation/Animation Progress</td>
+                    <td class="cap">Time (initial &rarr; final)</td>
+                </tr>
+                <tr>
+                    <td class="bar"><progress id="Progress" style="width: 60%; margin-top: -5px" value="0" max="200">0%</progress>
+                    </td>
+                    <td class="bar"><input type="range" style="width: 60%; margin-top: -5px" value="0" id="t" name="time" min="0" max="200">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <div id="line"></div>
+        <!--User manual-->
+        <h>How to Use Simulator</h>
+        <p><img class="im_right" src="contents/massgame.jpg" alt="" style="padding-left:25px; padding-right:10px" width="350" align="justify">
+            <ol>
+                <li class="how">Select or import <font color="DC0000">a reference image</font> using the &ldquo;Reference Image&rdquo; menu and button.</li>
+                <li class="how">Set <font color="DC0000">the number and speed</font> of agents and <font color="DC0000">the contrast</font> of the image of the resulting formation using the corresponding menus.</li>
+                <li class="how">Perform <font color="blue">the simulation of the mass game</font> by clicking the &ldquo;Simulation&rdquo; button.
+                    The progress of the simulation is shown on the &ldquo;Simulation/Animation Progress&rdquo; bar.</li>
+                <li class="how"><font color="blue">The resulting formation</font> can be viewed in the &ldquo;Formation&rdquo; window using the &ldquo;Time&rdquo; slider and the &ldquo;Animation&rdquo; button.</li>
+            </ol>
+        </p>
+        </div>
+        <script src="MGS_web.js"></script><!--Importing MGS.js-->
+    </body>
+</html>
