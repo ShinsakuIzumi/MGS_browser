@@ -22,7 +22,7 @@ To address the above problem, a web-based version of the MGS with the following 
 The simulator is available on [the website](https://www.sceng.kochi-tech.ac.jp/izumi/MGS/MGS_web.html), and a user manual is at the bottom of the site.
 
 ## License
-This software, except for the csv files in the "images" folder, is released under the MIT License. The images generated from the csv files are sourced from standard images (see, e.g., [the website](http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html)) in the image processing community for research purposes, and the author does not claim any rights to the images. If you use these files, please note this point.
+This software, *except for the csv files in the "images" folder*, is released under the MIT License. The images generated from the csv files are sourced from standard images (see, e.g., [the website](http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html)) in the image processing community for research purposes, and the author does not claim any rights to the images. If you use these files, please note this point.
 
 ## References
 [1] S. Azuma, S. Izumi, and T. Sugie: Halftone Mass Games by Fixed Number of Mobile Robots, *Transactions of the Institute of Systems, Control and Information Engineers*, Vol. 25, No. 4, pp. 94-100 (2012) (in Japanese)
