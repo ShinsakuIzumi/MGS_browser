@@ -7,7 +7,7 @@ In multi-agent mass games, agents achieve formations displaying *grayscale image
 ![massgame2](https://user-images.githubusercontent.com/76646096/103174110-d0357c00-48a2-11eb-9a4c-739cc3fa57c7.jpg)
 
 ## Mass Game Simulator [3]
-The mass game simulator (MGS) was developed to overcome difficulties in implementing algorithms for simulating mass games. With the MGS, it is possible to simulate mass games only through mouse and keyboard operations without the need for expert knowledge or programming effort. See [the repository](https://github.com/ShinsakuIzumi/Mass_Game_Simulator) for details.
+The mass game simulator (MGS) was developed to overcome difficulties in implementing algorithms for simulating mass games. With the MGS, we can simulate mass games only through mouse and keyboard operations without the need for expert knowledge or programming effort. See [the repository](https://github.com/ShinsakuIzumi/Mass_Game_Simulator) for details.
 Meanwhile, the MGS requires MATLAB, which involves costs and efforts for the software and its installation. This limits the number of the potential users of the MGS.
 
 ## Features of Web-Based Version
