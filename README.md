@@ -13,7 +13,7 @@ Meanwhile, the MGS requires MATLAB, which entails cost and effort for its purcha
 ## Features of Web-Based Version
 To address the above problem, a web-based version of the MGS with the following features has been developed:
 - The simulator runs on web browsers (e.g., Microsoft Edge and Google Chrome) and thus can be used as long as an internet connection is available. 
-- The users of the simulator do not have to see the manual in [3] or prepare a reference image. 
+- The users of the simulator do not need to consult an external user manual or prepare a reference image. 
 - The choices for the simulation settings (e.g., the number of agents) are more straightforward, reducing the complexity of the simulator's operation.
 
 ![Image](https://github.com/user-attachments/assets/899a0dd1-e53f-46d0-a76d-a03acfabc92f)
