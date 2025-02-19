@@ -7,14 +7,14 @@ In multi-agent mass games, agents achieve formations displaying *grayscale image
 ![massgame2](https://user-images.githubusercontent.com/76646096/103174110-d0357c00-48a2-11eb-9a4c-739cc3fa57c7.jpg)
 
 ## Mass Game Simulator [3]
-The mass game simulator (MGS) was developed to overcome difficulties in implementing algorithms for simulating mass games. With the MGS, we can simulate mass games only through mouse and keyboard operations without the need for expert knowledge or programming effort. See [the repository](https://github.com/ShinsakuIzumi/Mass_Game_Simulator) for details.
-Meanwhile, the MGS requires MATLAB, which involves costs and efforts for the software and its installation. This limits the number of the potential users of the MGS.
+The mass game simulator (MGS) was developed to overcome the difficulty in implementing the algorithm for simulating mass games. With the MGS, we can simulate mass games only through mouse and keyboard operations without the need for expert knowledge or programming effort. See [the repository](https://github.com/ShinsakuIzumi/Mass_Game_Simulator) for details.
+Meanwhile, the MGS requires MATLAB, which entails cost and effort for its purchase and installation. This limits the number of potential users of the MGS.
 
 ## Features of Web-Based Version
 To address the above problem, a web-based version of the MGS with the following features has been developed:
 - The simulator runs on web browsers (e.g., Microsoft Edge and Google Chrome) and thus can be used as long as an internet connection is available. 
 - The users of the simulator do not have to see the manual in [3] or prepare a reference image. 
-- The choices of the simulation settings (e.g., the number of agents) are more straightforward, reducing the complexity of the simulator's operation.
+- The choices for the simulation settings (e.g., the number of agents) are more straightforward, reducing the complexity of the simulator's operation.
 
 ![Image](https://github.com/user-attachments/assets/899a0dd1-e53f-46d0-a76d-a03acfabc92f)
 
