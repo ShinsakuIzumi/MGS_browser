@@ -16,7 +16,7 @@ To address the above issue, a browser-based version of the MGS with the followin
 - The users of the simulator do not need to consult an external user manual or prepare a reference image. 
 - The choices for the simulation settings (e.g., the number of agents) are more straightforward, reducing the complexity of the simulator's operation.
 
-![Image](https://github.com/user-attachments/assets/a0d206a7-deb7-4c76-9ff2-e6a715228066)
+![Image](https://github.com/user-attachments/assets/3d6a4872-ade2-4ed5-a73d-6f54c3f5c5f1)
 
 ## Usage
 The simulator is available on [the website](https://www.sceng.kochi-tech.ac.jp/izumi/MGS/MGS_web.html), and a user manual is at the bottom of the simulator.
