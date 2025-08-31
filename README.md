@@ -22,7 +22,7 @@ To address the above issue, a browser-based version of the MGS with the followin
 Download the "sim" folder and open "MGS_browser.html." A brief user manual can be found at the bottom of the browser window.
 
 ## License
-This software, *except for the four images provided as trial images*, is released under the MIT License. The four trial images are sourced from standard images (see, e.g., [the website](http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html)) in the image processing community for research purposes, and the author does not claim any rights to the images. If you use these files, please note this point.
+This software, *except for the four images provided as trial images*, is released under the MIT License. The four trial images are sourced from standard images (see, e.g., [the website](http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html)) in the image processing community for research purposes, and the author does not claim any rights to the images. If you use these images, please note this point.
 
 ## References
 [1] S. Azuma, S. Izumi, and T. Sugie: Halftone Mass Games by Fixed Number of Mobile Robots, *Transactions of the Institute of Systems, Control and Information Engineers*, Vol. 25, No. 4, pp. 94-100 (2012) (in Japanese)
