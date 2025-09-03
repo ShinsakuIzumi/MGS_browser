@@ -10,7 +10,7 @@ In multi-agent mass games, agents achieve formations displaying *grayscale image
 The mass game simulator (MGS) was developed to overcome the difficulty in implementing the algorithm for simulating the mass games. With the MGS, we can simulate the mass games only through mouse and keyboard operations without the need for expert knowledge or programming effort. See [the repository](https://github.com/ShinsakuIzumi/Mass_Game_Simulator) for details.
 Meanwhile, the MGS requires MATLAB, which entails cost and effort for its purchase and installation. This limits the number of potential users of the MGS.
 
-## Features of Web-Based Version
+## Features of Browser-Based Version
 To address the above issue, a browser-based version of the MGS with the following features has been developed:
 - The simulator runs on web browsers (e.g., Microsoft Edge and Google Chrome) without the need for any specific software. 
 - The users of the simulator do not need to consult an external user manual or prepare a reference image. 
