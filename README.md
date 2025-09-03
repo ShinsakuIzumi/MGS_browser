@@ -1,4 +1,4 @@
-# Mass Game Simulator: Browser-Based Version
+# Browser-Based Mass Game Simulator
 This is a browser-based simulator of *multi-agent mass games*.
 
 ## Multi-Agent Mass Games [1,2]
